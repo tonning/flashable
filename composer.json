@@ -1,14 +1,17 @@
 {
     "name": "tonning/flashable",
     "description": "A simple trait to flash when model events are fired, like `created`, `updated`, and `saved`.",
-    "require": {
-        "laracasts/flash": "^3.0"
-    },
+    "homepage": "https://github.com/tonning/flashable",
     "license": "MIT",
     "authors": [
         {
             "name": "Kristoffer Tonning",
-            "email": "tonning@gmail.com"
+            "email": "tonning@gmail.com",
+            "homepage": "https://kristoffertonning.com",
         }
-    ]
+    ],
+    "require": {
+        "php": "^5.6",
+        "laracasts/flash": "^3.0"
+    },
 }
