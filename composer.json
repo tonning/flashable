@@ -10,8 +10,15 @@
             "homepage": "https://kristoffertonning.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tonning\\Flashable\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "laracasts/flash": "^3.0"
+    },
     "config": {
         "sort-packages": true
     }
