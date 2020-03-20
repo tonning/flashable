@@ -47,6 +47,6 @@ trait Flashable
 
         $nameAsArray = preg_split('/(?<=[a-z])(?=[A-Z])/x', (new ReflectionClass($model))->getShortName());
 
-        return join($nameAsArray, " ");
+        return join(" ", $nameAsArray);
     }
 }
